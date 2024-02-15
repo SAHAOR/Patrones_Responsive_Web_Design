@@ -37,3 +37,29 @@ p {
 }
 
 /** CODIGO AQUI **/
+.contenedor{
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: justify;
+    line-height: 2;
+}
+h1{
+    text-align: center;
+}
+@media (min-width: 768px) {
+    .contenedor{
+        max-width:80% ;
+    }
+    h1{
+        text-align: left;
+    }
+}
+@media (min-width: 992px) {
+    .contenedor{
+        max-width: 60%;
+    }
+}
+img{
+    max-width: 100%;
+    border-radius: 2rem;
+}
